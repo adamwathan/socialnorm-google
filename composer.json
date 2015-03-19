@@ -1,0 +1,35 @@
+{
+    "name": "socialnorm/google",
+    "description": "Google provider for SocialNorm",
+    "authors": [
+    {
+        "name": "Adam Wathan",
+        "email": "adam.wathan@gmail.com"
+    }
+    ],
+    "license": "MIT",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/adamwathan/socialnorm"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "guzzlehttp/guzzle": "~5.0",
+        "socialnorm/socialnorm": "dev-master"
+    },
+    "require-dev": {
+        "mockery/mockery": "~0.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "SocialNorm\\Google\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "files": [
+            "tests/TestCase.php"
+        ]
+    }
+}
