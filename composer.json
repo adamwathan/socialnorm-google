@@ -8,16 +8,10 @@
     }
     ],
     "license": "MIT",
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/adamwathan/socialnorm"
-        }
-    ],
     "require": {
         "php": ">=5.4.0",
-        "guzzlehttp/guzzle": "~5.0",
-        "socialnorm/socialnorm": "0.1.*"
+        "guzzlehttp/guzzle": "^6.0",
+        "socialnorm/socialnorm": "^0.2"
     },
     "require-dev": {
         "mockery/mockery": "~0.8",
